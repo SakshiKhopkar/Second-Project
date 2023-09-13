@@ -12,24 +12,21 @@ namespace Second_Project.String
         static void Main(string[] args)
         {
             //11.Write a C# program to reverse order of words in a given string.
-            string Call = "Hii Everybody";
-             string[] strarray = Call.Split(' ');
-             string msg="";
-             string MSG2 = "";
-             msg = strarray[0];
-             MSG2 = strarray[1];
-             char[] ch=msg.ToCharArray();
-             for(int i=ch.Length-1; i>=0; i--)
-             {
-                 Console.Write(ch[i]);
-             }
-             Console.WriteLine();
-             char[] ch2 = MSG2.ToCharArray();
-             for (int i = ch2.Length - 1; i >= 0; i--)
-             {
-                 Console.Write(ch2[i]);
-             }
-             Console.WriteLine();
+            string s = "India is the best";
+            string str = "";
+            string[] st = s.Split(' ');
+            for(int i=0; i<st.Length; i++)
+            {
+                string word = st[i];
+                string rev = "";
+                for(int j=word.Length-1; j>=0; j--)
+                {
+                    rev = rev+ word[j];
+                }
+                str=str+" "+rev;               
+            }
+            Console.WriteLine(str);
+            
            
 
         }

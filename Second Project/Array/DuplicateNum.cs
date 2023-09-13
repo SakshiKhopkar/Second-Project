@@ -11,9 +11,7 @@ namespace Second_Project.Array
     {
         static void Main(string[] args)
         {
-            int[] num = { 1, 2, 3, 2, 4, 1, 4,1 };
-          
-            //int count = 0;
+            int[] num = { 25,44,25,54,88,76,25};
             for (int i = 0; i < num.Length; i++)
             {
                 int count = 1;
@@ -35,17 +33,24 @@ namespace Second_Project.Array
                         if (num[i] == num[j])
                         {
                             count++;
+                            
                         }
-                    }
+
+                   }
                     if (count > 1)
                     {
-                        Console.WriteLine(count+"times"+num[i]);
-                      
+                        Console.WriteLine(count+"times"+num[i]);                      
+
+                    }
+                    if (count == 1)
+                    {
+                        
+                        Console.WriteLine(count + " times " + num[i]);
+                        
                     }
                 }
                
             }
-           // Console.WriteLine("total duplicate numbers are " +count);
 
         }
     }

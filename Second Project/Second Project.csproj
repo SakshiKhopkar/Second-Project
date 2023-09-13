@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Second_Project.Array.RunEmp2</StartupObject>
+    <StartupObject>Second_Project.Array.DuplicateNum</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -51,14 +51,21 @@
     <Compile Include="Account.cs" />
     <Compile Include="Account2.cs" />
     <Compile Include="Array\AcceptName.cs" />
+    <Compile Include="Array\AlternateEle.cs" />
     <Compile Include="Array\ArrayJagged.cs" />
     <Compile Include="Array\ArraySort.cs" />
     <Compile Include="Array\ArraySort2.cs" />
     <Compile Include="Array\DuplicateNum.cs" />
     <Compile Include="Array\Employee.cs" />
     <Compile Include="Array\Employee2.cs" />
+    <Compile Include="Array\EnumProgram.cs" />
     <Compile Include="Array\Euality_Of_Array.cs" />
+    <Compile Include="Array\evensum.cs" />
     <Compile Include="Array\FindUniqueElement.cs" />
+    <Compile Include="Array\NegativeBeforepositive.cs" />
+    <Compile Include="Array\OddPosition.cs" />
+    <Compile Include="Array\PrimeEle.cs" />
+    <Compile Include="Array\ReplaceNegative.cs" />
     <Compile Include="Array\RevereseArray.cs" />
     <Compile Include="Array\Run.cs" />
     <Compile Include="Array\SecondHighest.cs" />

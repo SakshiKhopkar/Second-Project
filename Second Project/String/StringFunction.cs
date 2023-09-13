@@ -14,11 +14,12 @@ namespace Second_Project.String
             string message2 = "Hi all  ";
             string message3 = "  Good day";
             Console.WriteLine(message);
-            Console.WriteLine(message.GetHashCode());//return the address location of variable
+            Console.WriteLine("1"+message.GetHashCode());//return the address location of variable
             message = message + "Good Morning";
             Console.WriteLine(message);
-            Console.WriteLine(message.GetHashCode());
+            Console.WriteLine("2-"+message.GetHashCode());
             string str1 = string.Concat(message.Trim(),"", message2.TrimEnd(),message3.TrimStart());
+            // first occurance
             Console.WriteLine(message.ToUpper());
             Console.WriteLine(message2.ToLower());
             Console.WriteLine("index -"+message.IndexOf('l'));

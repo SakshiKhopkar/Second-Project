@@ -24,7 +24,7 @@ namespace Second_Project.Array
                     small2 = small;
                     small = arr[i];
                 }
-                if (arr[i] > small && arr[i]<small2)
+                else if (arr[i] > small && arr[i]<small2)
                 {
                     small2 = arr[i];
                 }
